@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.mavenproject1;
+package interfaceKendaraan;
 
 /**
  *
- * @author A-26
+ * @author A-5
  */
 public interface Kendaraan {
-    void info() ;
+//    interface Kendaraan {
+        void info();
+//    }
 }

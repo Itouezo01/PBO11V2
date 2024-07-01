@@ -3,24 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.mavenproject1;
+package interfaceKendaraan;
 
 /**
  *
- * @author A-26
+ * @author A-5
  */
-public class Dealer {
-
+class Dealer {
+    
     private String nama;
     private MobilBaru mobilBaru;
     private MobilBekas mobilBekas;
-
+    
     public Dealer(String nama, MobilBaru mobilBaru, MobilBekas mobilBekas) {
         this.nama = nama;
         this.mobilBaru = mobilBaru;
         this.mobilBekas = mobilBekas;
     }
-
     public String getNama() {
         return nama;
     }

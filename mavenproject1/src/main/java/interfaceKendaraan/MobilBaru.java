@@ -3,27 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.mavenproject1;
+package interfaceKendaraan;
 
 /**
  *
- * @author A-26
+ * @author A-5
  */
-public class MobilBaru extends Mobil {
-
+class MobilBaru extends Mobil {
+    
     private String garansi;
-
+    
     public MobilBaru(String merek, String model, String garansi) {
         super(merek, model);
         this.garansi = garansi;
     }
-
     public String getGaransi() {
         return garansi;
     }
-
-    @Override
     public void info() {
-        System.out.println(")" + "Mobil Baru: " + getMerek() + " " + getModel() + "(Garansi:" + garansi + ")");
+        System.out.println("Mobil Baru: " + getMerek() + " " + getModel() + "(Garansi: " + garansi + ")");
     }
 }
